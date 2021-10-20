@@ -14,3 +14,11 @@
 (defn increment_set
   [x]
   (map increment x))
+
+(defn vars []
+  (def a 3)
+  (def A 5)
+
+  (println a)
+  (println A)
+  )
